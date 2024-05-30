@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Color Scheme: */
+:root {
+    --primary-color: #333; /* dark brown */
+    --secondary-color: #FFC080; /* golden yellow */
+    --background-color: #F5F5F5; /* light beige */
+}
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    font-family: "Poetsen One", sans-serif;
+}
+
+header {
+    background-color: bisque;
+    padding: 1em;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lyrics-section {
+    flex-basis: 60%;
+    padding: 1em;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Edu TAS Beginner", cursive;
+    text-align: center;
+}
+
+.lyrics-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lyrics-section p {
+    margin-bottom: 20px;
+}
+
+aside {
+    flex-basis: 40%;
+    padding: 1em;
+}
+
+aside img {
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.video-section {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: brown;
+    padding: 1em;
+    text-align: center;
+    color: #000000;
+}
